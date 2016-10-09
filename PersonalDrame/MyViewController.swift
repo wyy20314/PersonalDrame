@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MyViewController.swift
 //  PersonalDrame
 //
 //  Created by 水蒸气很快乐 on 16/10/9.
@@ -8,16 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController
-{
+class MyViewController: UIViewController {
 
-    override func viewDidLoad()
-    {
+    override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "首页"
-        
-        self.view.backgroundColor = UIColor.green
-      
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {

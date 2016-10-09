@@ -7,15 +7,19 @@
 //
 
 import UIKit
-
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
+class AppDelegate: UIResponder, UIApplicationDelegate,UITabBarControllerDelegate
+{
     var window: UIWindow?
-
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool
+    {
         // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        let tabBarController = BaseTabbarController()
+        tabBarController.delegate = self
+        window?.rootViewController = tabBarController
+        window?.makeKeyAndVisible()
+        self.window?.makeKeyAndVisible();
         return true
     }
 

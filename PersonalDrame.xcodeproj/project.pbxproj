@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		A0CC289E1DA9DFB200821114 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CC289D1DA9DFB200821114 /* AppDelegate.swift */; };
-		A0CC28A01DA9DFB200821114 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CC289F1DA9DFB200821114 /* ViewController.swift */; };
 		A0CC28A31DA9DFB200821114 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0CC28A11DA9DFB200821114 /* Main.storyboard */; };
 		A0CC28A51DA9DFB200821114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0CC28A41DA9DFB200821114 /* Assets.xcassets */; };
 		A0CC28A81DA9DFB200821114 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0CC28A61DA9DFB200821114 /* LaunchScreen.storyboard */; };
+		A0CC28C41DA9E6F000821114 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CC28C31DA9E6F000821114 /* ViewController.swift */; };
+		A0CC28EA1DA9F30200821114 /* BaseTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CC28E91DA9F30200821114 /* BaseTabbarController.swift */; };
+		A0CC28EC1DA9F34200821114 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CC28EB1DA9F34200821114 /* BaseNavigationController.swift */; };
+		A0CC28EE1DAA033E00821114 /* MianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CC28ED1DAA033E00821114 /* MianViewController.swift */; };
+		A0CC28F01DAA035B00821114 /* FindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CC28EF1DAA035B00821114 /* FindViewController.swift */; };
+		A0CC28F21DAA036B00821114 /* GoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CC28F11DAA036B00821114 /* GoalViewController.swift */; };
+		A0CC28F41DAA038400821114 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CC28F31DAA038400821114 /* MyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A0CC289A1DA9DFB200821114 /* PersonalDrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalDrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0CC289D1DA9DFB200821114 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A0CC289F1DA9DFB200821114 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A0CC28A21DA9DFB200821114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0CC28A41DA9DFB200821114 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0CC28A71DA9DFB200821114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0CC28A91DA9DFB200821114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0CC28C31DA9E6F000821114 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0CC28E91DA9F30200821114 /* BaseTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabbarController.swift; sourceTree = "<group>"; };
+		A0CC28EB1DA9F34200821114 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		A0CC28ED1DAA033E00821114 /* MianViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MianViewController.swift; sourceTree = "<group>"; };
+		A0CC28EF1DAA035B00821114 /* FindViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindViewController.swift; sourceTree = "<group>"; };
+		A0CC28F11DAA036B00821114 /* GoalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalViewController.swift; sourceTree = "<group>"; };
+		A0CC28F31DAA038400821114 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +67,179 @@
 			isa = PBXGroup;
 			children = (
 				A0CC289D1DA9DFB200821114 /* AppDelegate.swift */,
-				A0CC289F1DA9DFB200821114 /* ViewController.swift */,
+				A0CC28C31DA9E6F000821114 /* ViewController.swift */,
+				A0CC28AF1DA9E01A00821114 /* MainPage */,
+				A0CC28B21DA9E07C00821114 /* FindChange */,
+				A0CC28B01DA9E04500821114 /* Goal */,
+				A0CC28B11DA9E05700821114 /* MyPage */,
+				A0CC28B61DA9E54A00821114 /* FrameWork */,
+				A0CC28E41DA9F01300821114 /* ToolsClass */,
+				A0CC28B41DA9E4FE00821114 /* ThirdLibrary */,
+				A0CC28B31DA9E36900821114 /* Images */,
 				A0CC28A11DA9DFB200821114 /* Main.storyboard */,
 				A0CC28A41DA9DFB200821114 /* Assets.xcassets */,
 				A0CC28A61DA9DFB200821114 /* LaunchScreen.storyboard */,
 				A0CC28A91DA9DFB200821114 /* Info.plist */,
 			);
 			path = PersonalDrame;
+			sourceTree = "<group>";
+		};
+		A0CC28AF1DA9E01A00821114 /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				A0CC28B71DA9E5AE00821114 /* Model */,
+				A0CC28B81DA9E5BB00821114 /* View */,
+				A0CC28B91DA9E5DD00821114 /* Controller */,
+			);
+			name = MainPage;
+			sourceTree = "<group>";
+		};
+		A0CC28B01DA9E04500821114 /* Goal */ = {
+			isa = PBXGroup;
+			children = (
+				A0CC28BD1DA9E63E00821114 /* Model */,
+				A0CC28BE1DA9E66400821114 /* View */,
+				A0CC28BF1DA9E66C00821114 /* Controller */,
+			);
+			name = Goal;
+			sourceTree = "<group>";
+		};
+		A0CC28B11DA9E05700821114 /* MyPage */ = {
+			isa = PBXGroup;
+			children = (
+				A0CC28C01DA9E68500821114 /* Model */,
+				A0CC28C11DA9E68D00821114 /* View */,
+				A0CC28C21DA9E69500821114 /* Controller */,
+			);
+			name = MyPage;
+			sourceTree = "<group>";
+		};
+		A0CC28B21DA9E07C00821114 /* FindChange */ = {
+			isa = PBXGroup;
+			children = (
+				A0CC28BA1DA9E5FE00821114 /* Model */,
+				A0CC28BB1DA9E60B00821114 /* View */,
+				A0CC28BC1DA9E61400821114 /* Controller */,
+			);
+			name = FindChange;
+			sourceTree = "<group>";
+		};
+		A0CC28B31DA9E36900821114 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		A0CC28B41DA9E4FE00821114 /* ThirdLibrary */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ThirdLibrary;
+			sourceTree = "<group>";
+		};
+		A0CC28B61DA9E54A00821114 /* FrameWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = FrameWork;
+			sourceTree = "<group>";
+		};
+		A0CC28B71DA9E5AE00821114 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A0CC28B81DA9E5BB00821114 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A0CC28B91DA9E5DD00821114 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A0CC28ED1DAA033E00821114 /* MianViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A0CC28BA1DA9E5FE00821114 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A0CC28BB1DA9E60B00821114 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A0CC28BC1DA9E61400821114 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A0CC28EF1DAA035B00821114 /* FindViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A0CC28BD1DA9E63E00821114 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A0CC28BE1DA9E66400821114 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A0CC28BF1DA9E66C00821114 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A0CC28F11DAA036B00821114 /* GoalViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A0CC28C01DA9E68500821114 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A0CC28C11DA9E68D00821114 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A0CC28C21DA9E69500821114 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A0CC28F31DAA038400821114 /* MyViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A0CC28E41DA9F01300821114 /* ToolsClass */ = {
+			isa = PBXGroup;
+			children = (
+				A0CC28E91DA9F30200821114 /* BaseTabbarController.swift */,
+				A0CC28EB1DA9F34200821114 /* BaseNavigationController.swift */,
+			);
+			name = ToolsClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +314,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0CC28A01DA9DFB200821114 /* ViewController.swift in Sources */,
+				A0CC28F21DAA036B00821114 /* GoalViewController.swift in Sources */,
+				A0CC28EC1DA9F34200821114 /* BaseNavigationController.swift in Sources */,
+				A0CC28EE1DAA033E00821114 /* MianViewController.swift in Sources */,
+				A0CC28C41DA9E6F000821114 /* ViewController.swift in Sources */,
 				A0CC289E1DA9DFB200821114 /* AppDelegate.swift in Sources */,
+				A0CC28EA1DA9F30200821114 /* BaseTabbarController.swift in Sources */,
+				A0CC28F41DAA038400821114 /* MyViewController.swift in Sources */,
+				A0CC28F01DAA035B00821114 /* FindViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
